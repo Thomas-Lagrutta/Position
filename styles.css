@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px; /* Espacio superior para que el contenido no quede debajo del menú fijo */
+}
+
+/* Estilo del contenedor del menú */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000; /* Control de superposición */
+}
+
+/* Estilo de la lista de navegación */
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo de los elementos de la lista */
+.nav-list li {
+    margin: 0 15px;
+}
+
+/* Estilo de los enlaces del menú */
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+
+/* Efecto al pasar el cursor sobre los enlaces */
+.nav-list a:hover {
+    background-color: #575757;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo del contenido principal */
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ajustes para las secciones */
+section {
+    padding: 50px 0;
+}
+
+
